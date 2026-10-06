@@ -1,0 +1,12 @@
+# Firebase / APNs secrets (do not commit)
+*-firebase-adminsdk-*.json
+service-account.json
+**/GoogleService-Info.plist
+AuthKey_*.p8
+*.p8
+.env
+.env.*
+.DS_Store
+
+# Keep the example template
+!**/GoogleService-Info.plist.example

@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3D2E48EB48040EAAE72015E /* SimpleChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513CE490CFDF4A00BF42901F /* SimpleChatApp.swift */; };
+		A3E1A8F4F1E04196A82621A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6E40E0C7C14BF0B9D77841 /* ContentView.swift */; };
+		2CC0495580BF46C596FD841E /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEFAA2339A24D7DAB525129 /* Config.swift */; };
+		1939748D7A304CAC83A04F6E /* CognitoAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396F64D54B824D23B50FD174 /* CognitoAuthService.swift */; };
+		17E717D65C824A52B94EC9F5 /* AguiModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B27AECE2D1449E89655F62E /* AguiModels.swift */; };
+		0D1AE292CA4042DCAD3A115D /* AguiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D283450A1F4344D198D2756F /* AguiClient.swift */; };
+		01B1F17CFAEE4FE5B6BC4DB3 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0106ACF10AAF4F7AAB5520E1 /* ChatViewModel.swift */; };
+		23C714F0CDFF4151A48BD1A2 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922BB9B25ADB4EFFA75FB73C /* LoginView.swift */; };
+		3A380C7B76CE487EAD9E44C8 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E5F397ADA94DAFA2FC0CB9 /* ChatView.swift */; };
+		A7C4E91B2F8D4A1E9C0B6D25 /* ChatInputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D8F04C1A5E4F9B8C3D7E16 /* ChatInputField.swift */; };
+		EE119993C37743DC8B71FB8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F9793B466FD45E788E388A7 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		513CE490CFDF4A00BF42901F /* SimpleChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleChatApp.swift; sourceTree = "<group>"; };
+		CB6E40E0C7C14BF0B9D77841 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FFEFAA2339A24D7DAB525129 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		396F64D54B824D23B50FD174 /* CognitoAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CognitoAuthService.swift; sourceTree = "<group>"; };
+		1B27AECE2D1449E89655F62E /* AguiModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AguiModels.swift; sourceTree = "<group>"; };
+		D283450A1F4344D198D2756F /* AguiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AguiClient.swift; sourceTree = "<group>"; };
+		0106ACF10AAF4F7AAB5520E1 /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		922BB9B25ADB4EFFA75FB73C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		78E5F397ADA94DAFA2FC0CB9 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		B2D8F04C1A5E4F9B8C3D7E16 /* ChatInputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatInputField.swift; sourceTree = "<group>"; };
+		8F9793B466FD45E788E388A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CDC2984B48C4675BB17766A /* SimpleChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		516CB11806F74E4FA0333FC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5D55B34F4FA46B59F75B49C = {
+			isa = PBXGroup;
+			children = (
+				0B123070114D4B6FA8B452D6 /* SimpleChat */,
+				4E8C264FE3BD47D4AD87BC1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E8C264FE3BD47D4AD87BC1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CDC2984B48C4675BB17766A /* SimpleChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B123070114D4B6FA8B452D6 /* SimpleChat */ = {
+			isa = PBXGroup;
+			children = (
+				513CE490CFDF4A00BF42901F /* SimpleChatApp.swift */,
+				CB6E40E0C7C14BF0B9D77841 /* ContentView.swift */,
+				FFEFAA2339A24D7DAB525129 /* Config.swift */,
+				6F1EA7C02A1B4B868F456D67 /* Auth */,
+				B81EF05B1E1B43A09FA3C91C /* Agent */,
+				26F0576DE6734DE69322F2EE /* Views */,
+				8F9793B466FD45E788E388A7 /* Assets.xcassets */,
+			);
+			path = SimpleChat;
+			sourceTree = "<group>";
+		};
+		6F1EA7C02A1B4B868F456D67 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				396F64D54B824D23B50FD174 /* CognitoAuthService.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		B81EF05B1E1B43A09FA3C91C /* Agent */ = {
+			isa = PBXGroup;
+			children = (
+				1B27AECE2D1449E89655F62E /* AguiModels.swift */,
+				D283450A1F4344D198D2756F /* AguiClient.swift */,
+			);
+			path = Agent;
+			sourceTree = "<group>";
+		};
+		26F0576DE6734DE69322F2EE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0106ACF10AAF4F7AAB5520E1 /* ChatViewModel.swift */,
+				922BB9B25ADB4EFFA75FB73C /* LoginView.swift */,
+				78E5F397ADA94DAFA2FC0CB9 /* ChatView.swift */,
+				B2D8F04C1A5E4F9B8C3D7E16 /* ChatInputField.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		095A0329C6174D949D616CA4 /* SimpleChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BF8B10ABF8847C99475F9EE /* Build configuration list for PBXNativeTarget "SimpleChat" */;
+			buildPhases = (
+				90307AF58B404AAFB733C0C9 /* Sources */,
+				516CB11806F74E4FA0333FC1 /* Frameworks */,
+				5B2597619809493D8F665E8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleChat;
+			productName = SimpleChat;
+			productReference = 2CDC2984B48C4675BB17766A /* SimpleChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30E484017F9B46D4B1C35864 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 55168DE37FFF4CA69C7AD8BC /* Build configuration list for PBXProject "SimpleChat" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5D55B34F4FA46B59F75B49C;
+			productRefGroup = 4E8C264FE3BD47D4AD87BC1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				095A0329C6174D949D616CA4 /* SimpleChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B2597619809493D8F665E8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE119993C37743DC8B71FB8E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90307AF58B404AAFB733C0C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3D2E48EB48040EAAE72015E /* SimpleChatApp.swift in Sources */,
+				A3E1A8F4F1E04196A82621A7 /* ContentView.swift in Sources */,
+				2CC0495580BF46C596FD841E /* Config.swift in Sources */,
+				1939748D7A304CAC83A04F6E /* CognitoAuthService.swift in Sources */,
+				17E717D65C824A52B94EC9F5 /* AguiModels.swift in Sources */,
+				0D1AE292CA4042DCAD3A115D /* AguiClient.swift in Sources */,
+				01B1F17CFAEE4FE5B6BC4DB3 /* ChatViewModel.swift in Sources */,
+				23C714F0CDFF4151A48BD1A2 /* LoginView.swift in Sources */,
+				3A380C7B76CE487EAD9E44C8 /* ChatView.swift in Sources */,
+				A7C4E91B2F8D4A1E9C0B6D25 /* ChatInputField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		62D4C64CE9C145058CEEE389 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A875D91E59F413696AA5D3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6672AE28642F4A2AA2B7D362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Agent Chat";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SimpleChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89852A55093C4AB3843F7980 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Agent Chat";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SimpleChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55168DE37FFF4CA69C7AD8BC /* Build configuration list for PBXProject "SimpleChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62D4C64CE9C145058CEEE389 /* Debug */,
+				1A875D91E59F413696AA5D3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BF8B10ABF8847C99475F9EE /* Build configuration list for PBXNativeTarget "SimpleChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6672AE28642F4A2AA2B7D362 /* Debug */,
+				89852A55093C4AB3843F7980 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30E484017F9B46D4B1C35864 /* Project object */;
+}

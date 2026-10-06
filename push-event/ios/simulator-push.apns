@@ -1,0 +1,11 @@
+{
+  "Simulator Target Bundle": "com.example.PushEventChat",
+  "aps": {
+    "alert": {
+      "title": "エージェント",
+      "body": "クラウドからの確認イベント"
+    },
+    "sound": "default"
+  },
+  "eventId": "00000000-0000-4000-8000-000000000001"
+}

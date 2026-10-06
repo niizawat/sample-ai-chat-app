@@ -1,0 +1,40 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "AllowAgentCoreRuntimeControlPlane",
+      "Effect": "Allow",
+      "Action": [
+        "bedrock-agentcore:CreateAgentRuntime",
+        "bedrock-agentcore:GetAgentRuntime",
+        "bedrock-agentcore:UpdateAgentRuntime",
+        "bedrock-agentcore:DeleteAgentRuntime",
+        "bedrock-agentcore:ListAgentRuntimes",
+        "bedrock-agentcore:ListAgentRuntimeVersions",
+        "bedrock-agentcore:CreateAgentRuntimeEndpoint",
+        "bedrock-agentcore:GetAgentRuntimeEndpoint",
+        "bedrock-agentcore:UpdateAgentRuntimeEndpoint",
+        "bedrock-agentcore:DeleteAgentRuntimeEndpoint",
+        "bedrock-agentcore:ListAgentRuntimeEndpoints",
+        "bedrock-agentcore:TagResource",
+        "bedrock-agentcore:UntagResource",
+        "bedrock-agentcore:ListTagsForResource"
+      ],
+      "Resource": [
+        "arn:aws:bedrock-agentcore:us-east-1:ACCOUNT_ID:runtime/*",
+        "arn:aws:bedrock-agentcore:us-east-1:ACCOUNT_ID:runtime/*/runtime-endpoint/*"
+      ]
+    },
+    {
+      "Sid": "AllowAgentCoreDataPlaneInvoke",
+      "Effect": "Allow",
+      "Action": [
+        "bedrock-agentcore:InvokeAgentRuntime",
+        "bedrock-agentcore:StopRuntimeSession"
+      ],
+      "Resource": [
+        "arn:aws:bedrock-agentcore:us-east-1:ACCOUNT_ID:runtime/*"
+      ]
+    }
+  ]
+}

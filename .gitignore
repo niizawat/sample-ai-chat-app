@@ -1,0 +1,20 @@
+.DS_Store
+**/.DS_Store
+
+# Local tooling
+.codegraph/
+.specstory/
+.cursorindexingignore
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Env / secrets (also covered under push-event/.gitignore)
+.env
+.env.*
+*.p8
+AuthKey_*.p8
+*-firebase-adminsdk-*.json
+service-account.json
